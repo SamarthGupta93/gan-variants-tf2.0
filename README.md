@@ -21,5 +21,5 @@ Labels for CGAN image generation: [0,2,4,6,8,1,3,5,7,9,3,6,9,1,5,7]
 
 ### References
 1. [DCGAN](https://arxiv.org/abs/1511.06434) paper
-2. [CGAN] (https://arxiv.org/abs/1411.1784) paper
+2. [CGAN](https://arxiv.org/abs/1411.1784) paper
 2. [Tensorflow tutorial](https://www.tensorflow.org/beta/tutorials/generative/dcgan)
