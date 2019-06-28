@@ -1,15 +1,11 @@
-# dcgan-tensorflow2.0
-Tensorflow2.0 implementation of Deep Convolutional Generative Adversarial Network
+# gan-variants-tensorflow2.0
+Tensorflow2.0 implementation of different Generative Adversarial Networks
 
-![alt text](https://github.com/SamarthGupta93/dcgan-tensorflow2.0/blob/master/generated_images/lr_1e-4/dcgan_mnist.gif "Training visualization through gif")
-
-Individual images can be found [here](https://github.com/SamarthGupta93/dcgan-tensorflow2.0/tree/master/generated_images/lr_1e-4)
-
-### Model Architecture
-Similar to the [DCGAN paper](https://arxiv.org/abs/1511.06434) except for few details changed.
-1. LeakyReLU in both the generator and discriminator. Original paper uses ReLU in generator and LeakyReLU in discriminator
-2. Adam optimizer learning rate is set as 1e-4. Original paper uses 2e-4
-3. Default settings for Adam hyperparameters (beta1 & beta2). In the original paper, beta1 is set as 0.5
+### CGAN result
+Conditional GANs can be used to generate a specific class of image out of all the classes in the dataset. It takes in an image label along with the noise as input and generates an image of the corresponding label. The visualization is shown below.
+Labels for image generation: [0,2,4,6,8,1,3,5,7,9,3,6,9,1,5,7]
+![alt text](https://github.com/SamarthGupta93/gan-variants-tf2.0/blob/master/cgan/generated_images/cgan_mnist.gif "Training visualization through gif")
+Individual images in the gif can be found [here](https://github.com/SamarthGupta93/gan-variants-tf2.0/tree/master/cgan/generated_images)
 
 ### Requirements
 1. Tensorflow v2
