@@ -7,7 +7,7 @@ Conditional GANs can be used to generate a specific class of image out of all th
 
 Labels for CGAN image generation: [0,2,4,6,8,1,3,5,7,9,3,6,9,1,5,7]
 
-                                  CGAN              |          DCGAN
+               CGAN              |          DCGAN
 
 
 ![alt text](https://github.com/SamarthGupta93/gan-variants-tf2.0/blob/master/images/cgan_mnist_resized.gif "Training visualization through gif") ![alt text](https://github.com/SamarthGupta93/gan-variants-tf2.0/blob/master/images/dcgan_mnist_resized.gif "DCGAN Training visualization through gif")
