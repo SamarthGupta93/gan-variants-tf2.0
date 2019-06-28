@@ -9,8 +9,8 @@ Labels for CGAN image generation: [0,2,4,6,8,1,3,5,7,9,3,6,9,1,5,7]
 
            CGAN              |          DCGAN
 
-
 ![alt text](https://github.com/SamarthGupta93/gan-variants-tf2.0/blob/master/images/cgan_mnist_resized.gif "Training visualization through gif") ![alt text](https://github.com/SamarthGupta93/gan-variants-tf2.0/blob/master/images/dcgan_mnist_resized.gif "DCGAN Training visualization through gif")
+
 [CGAN gif images](https://github.com/SamarthGupta93/gan-variants-tf2.0/tree/master/conditional_gan/generated_images) | [DCGAN gif images](https://github.com/SamarthGupta93/gan-variants-tf2.0/tree/master/dcgan/generated_images/lr_1e-4)
 
 ### Requirements
