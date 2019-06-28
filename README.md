@@ -3,6 +3,7 @@ Tensorflow2.0 implementation of DCGAN and CGAN models
 
 ### Results
 DCGANs can generate an image similar to the ones in the dataset through a random noise vector.
+
 Conditional GANs can be used to generate a specific class of image out of all the classes in the dataset. It takes in an image label along with the noise as input and generates an image of the corresponding label. The visualization is shown below.
 
 Labels for CGAN image generation: [0,2,4,6,8,1,3,5,7,9,3,6,9,1,5,7]
