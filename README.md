@@ -1,5 +1,5 @@
 # gan-variants-tensorflow2.0
-Tensorflow2.0 implementation of different Generative Adversarial Networks
+Tensorflow2.0 implementation of DCGAN and CGAN models
 
 ### Results
 DCGANs can generate an image similar to the ones in the dataset through a random noise vector.
